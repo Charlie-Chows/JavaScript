@@ -55,4 +55,24 @@ console.log(typeof updatedNum); // boolean */
  * FALSE, 0, "",null, undefined, NaN ==> false
  * 
  * Any other value not listed above is considered truthy. This includes non-zero numbers, non-empty strings, objects, arrays, functions, and other values.
- */
+ */ 
+
+/***************************** OPERATORS ************************************/
+
+console.log(1+2);
+console.log(1-2);
+console.log(1*2);
+console.log(1**2);
+console.log(1/2);
+console.log(1%2);
+ 
+
+console.log("1" + 2);   //12
+console.log("1" + "2"); //12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32 
+
+
+console.log(true); //true
+console.log(+true); //1
+// console.log(true+); // error  // SyntaxError: Unexpected token ')'
