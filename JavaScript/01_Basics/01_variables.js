@@ -1,8 +1,10 @@
 // CONST can't be changed
 const userId = "7";
+// userId = "8"; // Assign new value to const variable is NOT ALLOWED
 
 //LET is a block scope variable
 let userName = "CharlieChows";
+userName = "Sujith"; // assign new value to existing variable 
 
 // VAR is global scope variable
 var userPassword = "123abc";
