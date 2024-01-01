@@ -1,5 +1,7 @@
 "use strict";
 
+// alert(3+3);  // It throws error because it is Node js environment not browser
+
 // With strict mode
 var x = 10;
 
